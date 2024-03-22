@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.3",
+    "heartbeatAt": "2024-03-15T13:31:20.355966",
+    "startedAt": "2024-03-15T13:31:18.012100",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/entbappy/Industry-Safety-Detection-using-YOLO-v7.git",
+        "commit": "183c9e702fe058c5120d3c2802adb2edcb35d0dd"
+    },
+    "email": "giri.ayush2024@gmail.com",
+    "root": "C:/Users/giria/Desktop",
+    "host": "AyushGiri",
+    "username": "giria",
+    "executable": "c:\\Users\\giria\\anaconda3\\envs\\venv\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3301.0,
+        "min": 0.0,
+        "max": 3301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3301.0,
+            "min": 0.0,
+            "max": 3301.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 930.6702308654785,
+            "used": 345.14197158813477
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.242279052734375
+    }
+}

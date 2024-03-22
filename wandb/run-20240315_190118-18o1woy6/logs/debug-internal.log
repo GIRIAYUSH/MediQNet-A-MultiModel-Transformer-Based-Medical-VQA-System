@@ -1,0 +1,1031 @@
+2024-03-15 19:01:18,022 INFO    StreamThr :26064 [internal.py:wandb_internal():86] W&B internal server running at pid: 26064, started at: 2024-03-15 19:01:18.022085
+2024-03-15 19:01:18,022 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status
+2024-03-15 19:01:18,038 INFO    WriterThread:26064 [datastore.py:open_for_write():87] open: c:\Users\giria\Desktop\VQA-Med-2019-master\wandb\run-20240315_190118-18o1woy6\run-18o1woy6.wandb
+2024-03-15 19:01:18,042 DEBUG   SenderThread:26064 [sender.py:send():378] send: header
+2024-03-15 19:01:18,092 DEBUG   SenderThread:26064 [sender.py:send():378] send: run
+2024-03-15 19:01:19,257 INFO    SenderThread:26064 [dir_watcher.py:__init__():211] watching files in: c:\Users\giria\Desktop\VQA-Med-2019-master\wandb\run-20240315_190118-18o1woy6\files
+2024-03-15 19:01:19,257 INFO    SenderThread:26064 [sender.py:_start_run_threads():1099] run started: 18o1woy6 with start time 1710509478.022085
+2024-03-15 19:01:19,267 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: check_version
+2024-03-15 19:01:19,267 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: check_version
+2024-03-15 19:01:20,285 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: run_start
+2024-03-15 19:01:20,305 DEBUG   HandlerThread:26064 [system_info.py:__init__():26] System info init
+2024-03-15 19:01:20,305 DEBUG   HandlerThread:26064 [system_info.py:__init__():41] System info init done
+2024-03-15 19:01:20,305 INFO    HandlerThread:26064 [system_monitor.py:start():194] Starting system monitor
+2024-03-15 19:01:20,305 INFO    SystemMonitor:26064 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-15 19:01:20,305 INFO    HandlerThread:26064 [system_monitor.py:probe():214] Collecting system info
+2024-03-15 19:01:20,321 INFO    SystemMonitor:26064 [interfaces.py:start():190] Started cpu monitoring
+2024-03-15 19:01:20,325 INFO    SystemMonitor:26064 [interfaces.py:start():190] Started disk monitoring
+2024-03-15 19:01:20,325 INFO    SystemMonitor:26064 [interfaces.py:start():190] Started gpu monitoring
+2024-03-15 19:01:20,335 INFO    SystemMonitor:26064 [interfaces.py:start():190] Started memory monitoring
+2024-03-15 19:01:20,345 INFO    SystemMonitor:26064 [interfaces.py:start():190] Started network monitoring
+2024-03-15 19:01:20,355 DEBUG   HandlerThread:26064 [system_info.py:probe():150] Probing system
+2024-03-15 19:01:20,365 DEBUG   HandlerThread:26064 [system_info.py:_probe_git():135] Probing git
+2024-03-15 19:01:20,376 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:20,444 DEBUG   HandlerThread:26064 [system_info.py:_probe_git():143] Probing git done
+2024-03-15 19:01:20,444 DEBUG   HandlerThread:26064 [system_info.py:probe():198] Probing system done
+2024-03-15 19:01:20,444 DEBUG   HandlerThread:26064 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.3', 'heartbeatAt': '2024-03-15T13:31:20.355966', 'startedAt': '2024-03-15T13:31:18.012100', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/entbappy/Industry-Safety-Detection-using-YOLO-v7.git', 'commit': '183c9e702fe058c5120d3c2802adb2edcb35d0dd'}, 'email': 'giri.ayush2024@gmail.com', 'root': 'C:/Users/giria/Desktop', 'host': 'AyushGiri', 'username': 'giria', 'executable': 'c:\\Users\\giria\\anaconda3\\envs\\venv\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3301.0, 'min': 0.0, 'max': 3301.0}, 'cpu_freq_per_core': [{'current': 3301.0, 'min': 0.0, 'max': 3301.0}], 'disk': {'/': {'total': 930.6702308654785, 'used': 345.14197158813477}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.242279052734375}}
+2024-03-15 19:01:20,444 INFO    HandlerThread:26064 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-15 19:01:20,444 INFO    HandlerThread:26064 [system_monitor.py:probe():227] Publishing system info
+2024-03-15 19:01:20,444 DEBUG   HandlerThread:26064 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-03-15 19:01:21,271 INFO    Thread-16 :26064 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\giria\Desktop\VQA-Med-2019-master\wandb\run-20240315_190118-18o1woy6\files\conda-environment.yaml
+2024-03-15 19:01:22,390 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:24,409 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:26,424 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:28,438 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:30,119 DEBUG   HandlerThread:26064 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-15 19:01:30,119 INFO    HandlerThread:26064 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-15 19:01:30,149 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:01:30,149 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 19:01:30,149 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:01:30,149 DEBUG   SenderThread:26064 [sender.py:send():378] send: files
+2024-03-15 19:01:30,149 INFO    SenderThread:26064 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-15 19:01:30,339 INFO    Thread-16 :26064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\giria\Desktop\VQA-Med-2019-master\wandb\run-20240315_190118-18o1woy6\files\conda-environment.yaml
+2024-03-15 19:01:30,339 INFO    Thread-16 :26064 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\giria\Desktop\VQA-Med-2019-master\wandb\run-20240315_190118-18o1woy6\files\wandb-metadata.json
+2024-03-15 19:01:30,458 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:30,520 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-15 19:01:30,520 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:01:30,520 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: python_packages
+2024-03-15 19:01:30,527 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:01:30,527 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:01:31,341 INFO    Thread-16 :26064 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\giria\Desktop\VQA-Med-2019-master\wandb\run-20240315_190118-18o1woy6\files\requirements.txt
+2024-03-15 19:01:31,411 DEBUG   SenderThread:26064 [sender.py:send():378] send: telemetry
+2024-03-15 19:01:31,411 DEBUG   SenderThread:26064 [sender.py:send():378] send: config
+2024-03-15 19:01:31,411 DEBUG   SenderThread:26064 [sender.py:send():378] send: metric
+2024-03-15 19:01:31,411 DEBUG   SenderThread:26064 [sender.py:send():378] send: telemetry
+2024-03-15 19:01:31,411 DEBUG   SenderThread:26064 [sender.py:send():378] send: metric
+2024-03-15 19:01:31,411 WARNING SenderThread:26064 [sender.py:send_metric():1316] Seen metric with glob (shouldn't happen)
+2024-03-15 19:01:31,411 DEBUG   SenderThread:26064 [sender.py:send():378] send: telemetry
+2024-03-15 19:01:31,777 INFO    wandb-upload_0:26064 [upload_job.py:push():131] Uploaded file C:\Users\giria\AppData\Local\Temp\tmp8n7_bxvpwandb\1pk7yi10-wandb-metadata.json
+2024-03-15 19:01:32,484 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:33,429 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:01:34,494 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:36,510 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:38,468 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:01:38,534 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:40,555 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:42,579 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:43,495 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:01:44,600 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:45,535 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:01:45,537 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:01:45,537 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:01:46,617 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:48,632 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:48,845 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:01:49,450 INFO    Thread-16 :26064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\giria\Desktop\VQA-Med-2019-master\wandb\run-20240315_190118-18o1woy6\files\config.yaml
+2024-03-15 19:01:50,725 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:52,750 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:54,254 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:01:54,763 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:56,777 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:58,797 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:01:59,279 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:00,546 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:02:00,546 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:02:00,546 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:02:00,819 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:02,848 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:04,873 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:04,978 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:06,889 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:08,913 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:10,010 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:10,927 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:12,943 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:14,961 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:15,043 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:15,558 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:02:15,570 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:02:15,570 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:02:16,989 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:19,010 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:20,349 DEBUG   SystemMonitor:26064 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-15 19:02:20,352 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:02:20,352 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:21,090 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:23,119 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:25,140 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:25,391 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:27,166 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:29,186 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:30,436 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:30,568 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:02:30,569 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:02:30,569 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:02:31,203 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:33,234 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:35,251 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:35,983 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:37,270 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:39,290 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:41,012 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:41,308 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:43,327 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:45,363 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:45,582 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:02:45,582 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:02:45,582 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:02:46,930 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:47,397 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:49,403 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:50,355 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:02:51,503 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:52,376 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:53,529 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:55,549 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:57,443 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:02:57,578 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:02:59,589 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:00,589 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:03:00,600 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:03:00,600 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:03:01,613 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:02,968 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:03,632 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:05,644 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:07,659 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:08,003 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:09,678 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:11,703 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:13,020 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:13,714 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:15,595 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:03:15,605 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:03:15,605 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:03:15,743 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:17,772 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:18,933 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:19,795 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:20,358 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:03:21,881 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:23,898 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:24,380 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:25,916 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:27,931 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:29,419 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:29,946 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:30,598 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:03:30,609 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:03:30,609 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:03:31,961 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:33,974 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:34,945 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:35,989 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:38,009 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:39,981 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:40,032 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:42,048 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:44,068 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:45,009 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:45,606 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:03:45,627 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:03:45,627 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:03:46,082 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:48,092 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:50,033 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:50,114 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:50,367 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:03:52,212 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:54,229 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:55,397 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:03:56,244 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:03:58,279 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:00,297 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:00,426 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:00,608 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:04:00,637 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:04:00,638 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:04:02,315 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:04,331 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:06,032 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:06,350 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:08,366 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:10,387 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:11,054 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:12,403 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:14,422 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:15,620 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:04:15,655 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:04:15,655 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:04:16,446 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:16,975 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:18,465 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:20,377 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:04:20,478 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:22,389 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:22,552 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:24,572 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:26,591 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:27,412 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:28,614 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:30,630 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:04:30,630 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:30,649 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:04:30,649 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:04:32,652 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:33,000 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:34,670 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:36,683 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:38,035 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:38,711 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:40,722 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:42,743 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:43,070 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:44,759 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:45,633 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:04:45,653 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:04:45,653 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:04:46,776 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:48,792 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:49,001 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:50,378 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:04:50,812 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:52,892 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:54,413 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:04:54,919 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:56,935 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:58,953 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:04:59,446 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:00,635 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:05:00,677 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:05:00,677 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:05:00,983 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:03,011 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:05,029 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:05,152 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:07,046 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:09,062 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:10,175 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:11,082 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:13,107 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:15,126 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:15,216 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:15,645 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:05:15,686 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:05:15,688 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:05:17,143 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:19,162 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:20,384 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:05:20,384 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:21,176 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:23,263 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:25,286 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:25,396 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:27,299 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:29,312 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:30,420 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:30,650 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:05:30,698 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:05:30,698 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:05:31,326 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:33,345 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:35,364 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:36,109 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:37,385 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:39,399 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:41,155 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:41,417 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:43,434 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:45,448 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:45,655 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:05:45,707 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:05:45,707 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:05:47,037 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:47,462 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:49,477 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:50,394 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:05:51,490 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:52,401 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:53,571 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:55,601 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:57,430 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:05:57,612 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:05:59,634 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:00,659 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:06:00,711 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:06:00,711 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:06:01,654 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:03,098 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:03,682 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:05,697 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:07,719 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:08,130 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:09,733 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:11,745 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:13,149 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:13,767 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:15,669 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:06:15,719 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:06:15,719 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:06:15,781 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:17,795 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:19,084 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:19,812 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:20,396 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:06:21,828 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:23,916 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:24,428 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:25,929 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:27,948 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:29,464 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:29,970 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:30,674 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:06:30,723 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:06:30,723 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:06:32,000 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:34,016 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:35,080 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:36,042 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:38,059 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:40,076 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:40,106 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:42,097 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:44,121 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:45,134 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:45,684 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:06:45,735 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:06:45,735 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:06:46,139 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:48,157 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:50,182 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:50,399 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:06:50,399 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:52,206 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:54,287 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:55,432 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:06:56,307 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:06:58,321 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:00,337 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:00,451 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:00,686 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:07:00,748 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:07:00,748 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:07:02,352 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:04,365 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:06,207 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:06,386 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:08,406 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:10,429 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:11,252 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:12,443 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:14,475 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:15,692 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:07:15,767 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:07:15,767 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:07:16,495 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:17,168 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:18,514 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:20,407 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:07:20,531 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:22,416 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:22,549 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:24,635 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:26,657 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:27,441 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:28,672 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:30,691 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:30,700 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:07:30,790 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:07:30,790 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:07:32,707 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:33,135 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:34,725 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:36,741 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:38,177 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:38,756 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:40,772 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:42,786 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:43,205 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:44,804 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:45,704 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:07:45,784 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:07:45,784 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:07:46,821 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:48,206 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:48,834 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:50,414 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:07:50,856 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:52,874 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:53,429 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:54,970 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:56,988 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:07:58,449 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:07:59,007 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:00,714 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:08:00,790 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:08:00,790 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:08:01,034 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:03,061 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:04,233 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:05,077 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:07,107 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:09,133 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:09,263 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:11,154 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:13,166 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:14,289 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:15,190 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:15,718 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:08:15,792 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:08:15,792 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:08:17,210 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:19,227 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:20,167 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:20,424 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:08:21,248 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:23,267 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:25,373 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:25,450 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:27,392 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:29,414 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:30,490 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:30,723 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:08:30,798 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:08:30,798 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:08:31,424 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:33,444 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:35,462 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:36,179 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:37,482 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:39,498 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:41,221 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:41,529 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:43,546 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:45,566 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:45,732 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:08:45,812 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:08:45,812 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:08:47,222 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:47,600 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:49,617 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:50,436 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:08:51,642 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:52,451 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:53,657 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:55,752 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:57,476 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:08:57,766 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:08:59,787 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:00,734 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:09:00,824 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:09:00,825 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:09:01,812 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:02,551 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:03,838 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:05,856 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:07,572 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:07,875 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:09,901 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:11,915 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:12,599 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:13,939 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:15,737 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:09:15,817 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:09:15,817 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:09:15,959 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:17,973 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:18,222 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:19,994 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:20,444 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:09:22,004 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:23,451 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:24,026 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:26,103 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:28,125 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:28,480 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:30,137 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:30,752 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:09:30,824 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:09:30,825 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:09:32,164 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:34,186 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:34,186 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:36,198 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:38,220 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:39,228 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:40,237 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:42,257 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:44,257 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:44,277 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:45,753 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:09:45,835 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:09:45,835 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:09:46,291 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:48,303 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:50,251 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:50,318 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:50,446 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:09:52,337 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:54,365 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:55,474 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:09:56,425 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:09:58,445 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:00,465 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:00,495 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:00,760 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:10:00,844 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:10:00,844 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:10:02,484 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:04,504 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:06,221 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:06,527 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:08,545 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:10,576 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:11,257 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:12,593 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:14,628 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:15,782 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:10:15,860 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:10:15,860 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:10:16,642 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:17,216 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:18,673 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:20,459 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:10:20,684 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:22,479 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:22,717 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:24,739 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:26,835 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:27,496 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:28,845 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:30,786 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:10:30,860 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:30,872 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:10:30,873 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:10:32,872 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:33,175 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:34,890 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:36,909 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:38,212 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:38,935 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:40,951 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:42,970 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:43,242 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:44,997 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:45,788 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:10:45,891 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:10:45,892 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:10:47,015 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:48,243 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:49,038 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:50,469 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:10:51,065 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:53,088 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:53,484 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:55,099 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:57,161 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:10:58,504 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:10:59,184 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:00,794 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:11:00,905 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:11:00,905 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:11:01,203 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:03,225 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:04,238 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:05,253 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:07,272 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:09,270 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:09,306 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:11,315 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:13,336 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:14,308 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:15,360 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:15,799 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:11:15,927 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:11:15,928 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:11:17,375 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:19,346 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:19,393 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:20,476 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:11:21,418 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:23,431 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:24,502 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:25,449 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:27,519 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:29,522 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:29,542 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:30,800 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:11:30,937 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:11:30,937 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:11:31,559 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:33,570 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:35,415 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:35,592 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:37,617 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:39,630 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:40,451 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:41,651 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:43,672 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:45,487 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:45,696 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:45,808 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:11:45,963 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:11:45,964 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:11:47,712 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:49,732 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:50,483 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:11:51,490 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:51,773 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:53,795 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:55,817 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:56,528 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:11:57,898 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:11:59,915 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:00,809 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:12:00,955 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:12:00,955 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:12:01,933 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:02,374 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:03,952 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:05,965 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:07,399 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:07,982 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:10,000 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:12,025 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:12,423 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:14,041 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:15,824 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:12:15,975 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:12:15,975 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:12:16,060 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:18,084 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:18,351 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:20,106 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:20,483 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:12:22,130 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:23,507 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:24,133 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:26,158 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:28,223 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:28,534 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:30,250 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:30,825 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:12:30,975 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:12:30,975 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:12:32,269 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:34,282 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:34,342 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:36,303 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:38,327 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:39,393 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:40,349 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:42,384 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:44,405 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:44,441 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:45,827 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:12:45,972 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:12:45,972 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:12:46,428 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:48,447 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:50,373 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:50,462 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:50,485 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:12:52,486 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:54,500 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:55,514 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:12:56,521 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:12:58,610 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:00,551 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:00,657 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:00,831 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:13:00,977 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:13:00,977 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:13:02,679 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:04,696 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:06,385 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:06,711 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:08,738 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:10,765 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:11,405 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:12,792 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:14,813 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:15,836 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:13:15,993 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:13:15,993 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:13:16,844 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:17,395 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:18,853 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:20,497 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:13:20,866 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:22,521 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:22,889 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:24,915 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:26,932 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:27,558 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:29,005 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:30,841 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:13:30,999 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:13:30,999 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:13:31,046 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:33,072 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:33,314 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:35,090 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:37,114 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:38,350 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:39,133 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:41,159 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:43,191 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:43,402 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:45,225 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:45,845 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:13:46,017 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:13:46,017 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:13:47,247 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:49,280 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:49,338 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:50,503 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:13:51,296 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:53,317 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:54,539 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:13:55,328 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:57,346 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:59,411 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:13:59,575 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:00,852 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:14:01,023 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:14:01,023 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:14:01,432 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:03,451 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:05,382 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:05,464 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:07,477 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:09,491 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:10,437 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:11,515 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:13,527 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:15,478 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:15,545 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:15,854 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:14:16,024 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:14:16,024 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:14:17,563 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:19,571 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:20,512 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:14:20,512 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:21,588 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:23,620 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:25,536 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:25,630 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:27,654 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:29,713 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:30,558 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:30,866 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:14:31,033 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:14:31,033 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:14:31,732 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:33,747 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:35,760 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:36,441 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:37,781 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:39,800 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:41,475 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:41,820 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:43,851 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:45,874 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:45,878 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:14:46,051 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:14:46,051 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:14:47,381 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:47,896 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:49,913 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:50,521 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:14:51,932 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:52,526 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:53,962 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:55,969 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:14:57,560 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:14:57,981 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:00,064 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:00,881 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:15:01,054 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:15:01,054 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:15:02,081 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:03,399 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:04,097 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:06,132 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:08,159 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:08,429 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:10,180 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:12,207 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:13,465 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:14,228 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:15,884 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:15:16,047 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:15:16,047 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:15:16,248 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:18,275 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:19,445 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:20,297 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:20,537 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:15:22,311 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:24,339 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:24,578 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:26,364 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:28,379 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:29,616 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:30,447 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:30,894 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:15:31,059 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:15:31,059 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:15:32,455 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:34,471 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:35,397 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:36,475 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:38,493 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:40,432 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:40,504 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:42,514 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:44,536 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:45,451 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:45,896 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:15:46,052 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:15:46,053 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:15:46,548 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:48,558 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:50,547 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:15:50,547 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:50,576 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:52,590 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:54,609 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:55,583 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:15:56,632 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:15:58,658 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:00,615 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:00,718 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:00,905 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:16:01,061 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:16:01,061 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:16:02,745 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:04,769 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:06,503 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:06,781 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:08,792 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:10,814 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:11,538 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:12,838 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:14,861 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:15,913 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:16:16,073 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:16:16,073 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:16:16,879 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:17,418 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:18,901 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:20,552 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:16:20,923 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:22,562 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:22,938 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:24,955 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:26,990 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:27,585 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:29,008 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:30,917 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:16:31,071 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:16:31,071 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:16:31,074 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:33,098 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:33,475 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:35,122 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:37,140 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:38,511 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:39,190 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:41,201 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:43,224 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:43,552 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:45,244 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:45,917 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:16:46,087 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:16:46,087 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:16:47,267 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:49,288 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:49,449 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:50,563 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:16:51,306 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:53,319 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:54,590 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:16:55,334 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:57,345 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:59,376 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:16:59,613 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:00,932 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:17:01,091 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:17:01,091 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:17:01,448 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:03,461 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:05,469 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:05,509 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:07,495 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:09,514 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:10,534 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:11,525 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:13,545 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:15,564 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:15,575 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:15,936 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:17:16,120 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:17:16,120 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:17:17,581 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:19,592 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:20,568 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:17:21,575 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:21,607 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:23,624 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:25,645 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:26,633 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:27,664 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:29,688 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:30,938 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:17:31,117 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:17:31,117 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:17:31,760 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:32,544 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:33,786 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:35,793 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:37,579 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:37,817 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:39,838 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:41,856 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:42,612 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:43,887 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:45,900 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:45,948 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:17:46,127 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:17:46,127 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:17:47,922 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:48,522 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:49,940 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:50,575 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:17:51,971 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:53,605 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:17:53,995 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:56,013 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:58,037 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:17:58,632 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:00,059 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:00,956 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:18:01,136 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:18:01,136 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:18:02,127 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:04,154 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:04,540 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:06,171 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:08,194 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:09,585 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:10,210 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:12,240 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:14,261 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:14,608 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:15,966 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:18:16,136 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:18:16,136 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:18:16,278 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:18,292 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:20,305 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:20,551 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:20,587 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:18:22,336 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:24,350 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:25,629 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:26,362 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:28,381 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:30,396 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:30,672 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:30,969 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:18:31,141 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:18:31,141 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:18:32,460 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:34,493 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:36,507 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:36,581 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:38,521 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:40,541 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:41,610 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:42,576 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:44,599 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:45,984 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:18:46,144 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:18:46,144 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:18:46,611 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:47,529 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:48,614 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:50,591 DEBUG   SenderThread:26064 [sender.py:send():378] send: stats
+2024-03-15 19:18:50,641 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:52,628 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:52,664 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:54,690 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:56,719 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:18:57,676 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:18:58,761 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:19:00,770 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:19:00,989 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 19:19:01,149 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 19:19:01,150 DEBUG   SenderThread:26064 [sender.py:send_request():405] send_request: stop_status
+2024-03-15 19:19:02,831 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:19:03,514 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:19:04,871 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:19:06,890 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:19:08,562 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:19:08,908 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:19:10,939 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:19:12,954 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-15 19:19:13,603 DEBUG   HandlerThread:26064 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 19:19:14,968 ERROR   gpu       :26064 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
